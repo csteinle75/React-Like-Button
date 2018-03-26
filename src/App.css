@@ -1,0 +1,23 @@
+#myButton{
+	position: relative;
+	margin: 20px 0;
+	width: 200px;
+	height: 75px;
+	background-color: #88a;
+	border-radius: 5px;
+	filter: drop-shadow(0 5px 0 #556);
+}
+
+#myButton p {
+	margin: 0;
+	text-align: center;
+	line-height: 75px;
+	color: #fff;
+	font-size: 18px;
+}
+
+#myButton:active{
+	background-color: #669;
+	top: 5px;
+	filter: none;
+}
